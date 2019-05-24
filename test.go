@@ -1,6 +1,11 @@
 package test
 
-// Calcule retourne la somme x + yfddf
+// Calcule retourne la somme x + y
 func Calcule(x, y int) int {
 	return x + y
- }
+}
+
+// Soustrais retourne la soustraction x - y
+func Soustrais(x, y int) int {
+	return x - y
+}
